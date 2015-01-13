@@ -1,1 +1,1 @@
-about page
+<div class="panel panel-default" ng-repeat="creator in creators"> <div class="panel-body"> <div class="row"> <div class="col-md-3"> <a href="{{creator.githubProfileUrl}}" class="thumbnail" target="_blank"> <img ng-src="{{creator.gravatarUrl}}" alt="{{creator.githubUsername}} git hub profile"> </a> </div> <div class="col-md-9"> <div>{{creator.name}}</div> <div>{{creator.lastName}}</div> <div>C.C. {{creator.identification}}</div> <div>{{creator.email}}</div> <div>{{creator.proffesion}}</div> </div> </div> </div> </div>
